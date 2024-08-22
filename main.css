@@ -50,7 +50,6 @@ h1{
     text-align: center;
 }
 input{
-    position: fixed;
     top: 200px;
     left: 910px;
     width: 250px;
@@ -59,14 +58,15 @@ input{
     text-align: center;
     border: none;
     border-radius: 15px;
+    margin-top: 175px;
 }
 button{
-    position: fixed;
     top: 250px;
     left: 970px;
     width: 123px;
     height: 34px;
     border-radius: 13px;
+    margin-top: 178px;
 border: none;
 }
 #task-list {
@@ -82,12 +82,12 @@ border: none;
 
 #task-list li {
     padding: 10px; /* Espaçamento interno para cada item */
-    margin: -345px 0; /* Espaçamento vertical entre os itens */
+    margin: -55px 0; /* Espaçamento vertical entre os itens */
     border: 1px solid #ddd; /* Adiciona uma borda ao redor de cada item */
     width: 80%; /* Define a largura dos itens como 80% da largura do contêiner */
     text-align: center; /* Centraliza o texto dentro de cada item */
-    margin-top: 354px;
-    margin-left: 38px;
+    margin-top: 59px;
+    margin-left: -18px;
 }
 #task-list li.completed {
     text-decoration: line-through; /* Risca o texto do item */
